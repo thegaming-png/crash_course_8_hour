@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers
 
+import 'package:crash_course_8_hour/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,13 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Welcome to this app"),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
